@@ -109,3 +109,13 @@ make run-ingestion
 make run-model
 make run-gateway
 
+
+---
+## Docker services
+
+Service	Local Port
+ingestion	8081
+features	8082
+model	8083
+trajectory	8084
+gateway	8080

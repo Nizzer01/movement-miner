@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  ingestion:
+    build: ./services/ingestion
+    ports:
+      - "8081:8080"
+
+  features:
+    build: ./services/features
+    ports:
+      - "8082:8080"
+
+  model:
+    build: ./services/model
+    ports:
+      - "8083:8080"
+
+  trajectory:
+    build: ./services/trajectory
+    ports:
+      - "8084:8080"
+
+  gateway:
+    build: ./services/gateway
+    ports:
+      - "8080:8080"
