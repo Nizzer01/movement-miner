@@ -102,3 +102,10 @@ Implementation will proceed service-by-service.
 ## License
 
 MIT
+
+---
+## Make file cmds 
+make run-ingestion
+make run-model
+make run-gateway
+
