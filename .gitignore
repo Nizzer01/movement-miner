@@ -1,0 +1,32 @@
+# Binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build output
+*.out
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Dependency directories
+vendor/
+
+# Node / React
+ui/react-app/node_modules/
+ui/react-app/build/
+
+# Kubernetes local files
+deploy/k8s/.tmp/
+
+# Docker
+*.tar
